@@ -80,7 +80,7 @@ with mp_face_detection.FaceDetection(model_selection=0, min_detection_confidence
             prediction = model.predict(new_image)
             predicted_class = np.argmax(prediction)
 
-            words = "GOOD SITTING POSTURE"
+            words = ""
 
             if(predicted_class == 0):
                 words = "GOOD SITTING POSTURE"
